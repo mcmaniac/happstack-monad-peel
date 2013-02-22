@@ -1,6 +1,27 @@
 {-# LANGUAGE FlexibleInstances #-}
 {-# OPTIONS -fno-warn-orphans #-}
 
+{- |
+
+Module      :  Happstack.Server.MonadPeel
+Copyright   :  (c) Nils Schweinsberg, 2012
+License     :  BSD-style
+
+Maintainer  :  Nils Schweinsberg <mail@nils.cc>
+Stability   :  experimental
+Portability :  non-portable (extended exceptions)
+
+This module defines instances of 'MonadTransPeel' and 'MonadPeelIO' for
+Happstacks data types 'ServerPartT', 'FilterT' and 'WebT'.
+
+To use these instances, add
+
+> import Happstack.Server.MonadPeel ()
+
+to the import list of your Haskell module.
+
+-}
+
 module Happstack.Server.MonadPeel
   (
   ) where
