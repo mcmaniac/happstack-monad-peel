@@ -1,7 +1,9 @@
 {-# LANGUAGE FlexibleInstances #-}
 {-# OPTIONS -fno-warn-orphans #-}
 
-module Happstack.Server.MonadPeel where
+module Happstack.Server.MonadPeel
+  (
+  ) where
 
 import Control.Monad.Error
 import Control.Monad.Writer
